@@ -49,7 +49,7 @@ const WatchHistory = () => {
 
   return (
     <Flowbite theme={{ theme: customTheme }} >
-      <Box component={"div"} className='w-full min-h-[100vh] dark:bg-black dark:text-white'  >
+      <Box component={"div"} className='w-full min-h-[100vh] dark:bg-black pt-[2rem] dark:text-white'  >
         <Box component={"div"} className="w-full h-auto py-[2rem] px-[3rem] flex justify-between">
           <h2 className="heading3 flex items-center gap-4">Watch History <FaClockRotateLeft />
           </h2>
